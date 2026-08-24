@@ -1,0 +1,78 @@
+
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title> pesquisa_de_preços_Madeira_&_CIA_LTDA </title>
+</head>
+
+<body>
+
+<div class="w3-container w3-teal"> 
+<h2> <b> MADEIRA & CIA LTDA </b></h2>
+
+
+<h3> <b>PROMOÇÃO DE ANIVERSÁRIO!</b> Preencha o nosso formulário de consulta de desconto conforme sua forma de pagamento e visualize o desconto que será aplicado à sua compra. </h3>
+
+
+</div>
+
+
+<p> <h3> Olá, seja-bem vindo! Por favor, <b>INSIRA</b> os dados nos campos abaixo para registrarmos seu cadastro para realizarmos a pesquisa de preço de nossos produtos. <h3> </p>
+<div class="w3-container w3-teal"> 
+<h3> <b>Observação!</b> - Ao final do preenchimento, <b>CLIQUE</b>  no botão <b>ENVIAR</b> para suas respostas serem registradas com sucesso! </h3>
+</div>
+
+
+<form id="form1" name="form1" method="post" action="processaCadastro.php"> 
+
+<table>
+
+<tr>
+<td><label class="w3-text-teal"> <b> Nome completo do cliente: </b></label></td>
+<td> <input class="w3-input w3-border w3-light-grey" name="txtNome"></td>
+
+</tr>
+
+<tr>
+<td><label class="w3-text-teal"> <b> Valor da compra: </b></label></td>
+<td> <input class="w3-input w3-border w3-light-grey" name="txtValorCompra" type="number"> </td>
+</tr>
+
+<tr>
+<td><label class="w3-text-teal"> <b> Forma de pagamento (depósito, boleto, cartão de crédito): </b></label></td>
+<td> 
+
+
+<select class="w3-input w3-border w3-light-grey" name="cmbPag"> 
+<option value="cartaoCredito">Cartão de crédito</option> 
+<option value="boleto">Boleto</option> 
+<option value="deposito">Depósito</option> 
+
+</select>
+
+
+</td> 
+
+</tr>
+
+</table>
+
+
+
+<button class="w3-btn w3-blue-grey">Enviar</button>  </td>
+
+
+
+
+</form> 
+
+</body>
+
+</html>
+
+
+
