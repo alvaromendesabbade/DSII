@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobrePage"
+             Title="Sobre">
+
+    <VerticalStackLayout Padding="30"
+                         Spacing="20"
+                         VerticalOptions="Center">
+
+        <Label Text="Sobre o aplicativo"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Primary}" />
+
+        <Label Text="MauiAppHotel"
+               FontSize="22"
+               HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvedor: Tiago A. Silva"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano de desenvolvimento: 2024"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
